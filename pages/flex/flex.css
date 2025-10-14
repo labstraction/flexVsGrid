@@ -14,6 +14,9 @@ body {
 body{
     display: flex;
     flex-direction: column;
+    /* il default della flex è flex direction row,
+    se voglio che si distribuisca in verticale devo
+    indicare la flex-direction: column; */
 }
 
 header{
@@ -42,6 +45,9 @@ main{
     flex-grow: 5;
     display: flex;
     flex-direction: column;
+    /* il default della flex è flex direction row,
+    se voglio che si distribuisca in verticale devo
+    indicare la flex-direction: column; */
     min-width: 600px;
 }
 
@@ -60,6 +66,9 @@ footer{
     min-height: 500px;
     display: flex;
     flex-direction: column;
+    /* il default della flex è flex direction row,
+    se voglio che si distribuisca in verticale devo
+    indicare la flex-direction: column; */
 }
 
 .footer-row{
