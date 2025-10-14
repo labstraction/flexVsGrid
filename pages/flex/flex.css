@@ -1,3 +1,5 @@
+/*giochino flex (https://flexboxfroggy.com/#it) */
+
 * {
     box-sizing: border-box;
     border: 1px solid red;
@@ -25,6 +27,9 @@ header{
     display: flex;
     min-height: 800px;
     flex-wrap: wrap;
+    /* flex wrap consente al contenitore di mandare a capo gli elementi
+    quando non hanno più spazio e non riescono a stringersi ulteriormente
+    per fare andare a capo è spesso usato con min-width */
 }
 
 nav{
@@ -46,6 +51,9 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    /* flex wrap consente al contenitore di mandare a capo gli elementi
+    quando non hanno più spazio e non riescono a stringersi ulteriormente
+    per fare andare a capo è spesso usato con min-width */
 }
 
 footer{
@@ -58,6 +66,9 @@ footer{
     display: flex;
     flex-grow: 4;
     flex-wrap: wrap;
+    /* flex wrap consente al contenitore di mandare a capo gli elementi
+    quando non hanno più spazio e non riescono a stringersi ulteriormente
+    per fare andare a capo è spesso usato con min-width */
 }
 
 .footer-map{
@@ -102,6 +113,9 @@ footer{
     height: 350px;
     width: 350px;
     object-fit: cover;
+    /* object fit permette di decidere come l'immagine viene distribuita 
+    nello spazio disponibile, è utile quando ho dimensioni fisse sia di
+    height che di width; è simile a background-size */
     border-radius: 175px;
 }
 

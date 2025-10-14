@@ -1,3 +1,5 @@
+/*giochino grid (https://cssgridgarden.com/#it) */
+
 * {
     box-sizing: border-box;
     border: 1px solid red;
@@ -17,6 +19,10 @@ body {
         "he he"
         "me ma"
         "fo fo";
+    /* occorre definire le grid template areas quando uno o più elementi
+    contenuti nella grid devono occupare o più celle o una cella non 
+    consecutiva nella griglia, ogni elemento della griglia dovrà avere 
+    un nome che gli viene dato con la regola grid-area; */
 }
 
 @media (max-width: 915px) {
@@ -28,6 +34,10 @@ body {
             "me"
             "ma"
             "fo";
+        /* occorre definire le grid template areas quando uno o più elementi
+        contenuti nella grid devono occupare o più celle o una cella non 
+        consecutiva nella griglia, ogni elemento della griglia dovrà avere 
+        un nome che gli viene dato con la regola grid-area; */
     }
 }
 
@@ -69,6 +79,10 @@ footer {
     grid-template-areas:
         "fm f1 f2"
         "f3 f3 f3";
+    /* occorre definire le grid template areas quando uno o più elementi
+    contenuti nella grid devono occupare o più celle o una cella non 
+    consecutiva nella griglia, ogni elemento della griglia dovrà avere 
+    un nome che gli viene dato con la regola grid-area; */
 }
 
 @media (max-width: 915px) {
@@ -80,6 +94,10 @@ footer {
             "f1"
             "f2"
             "f3";
+        /* occorre definire le grid template areas quando uno o più elementi
+        contenuti nella grid devono occupare o più celle o una cella non 
+        consecutiva nella griglia, ogni elemento della griglia dovrà avere 
+        un nome che gli viene dato con la regola grid-area; */
     }
 }
 
@@ -87,6 +105,9 @@ footer {
     height: 350px;
     width: 350px;
     object-fit: cover;
+    /* object fit permette di decidere come l'immagine viene distribuita 
+    nello spazio disponibile, è utile quando ho dimensioni fisse sia di
+    height che di width; è simile a background-size */
     border-radius: 175px;
 }
 
