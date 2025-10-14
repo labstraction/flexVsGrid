@@ -62,7 +62,10 @@ footer{
 
 .footer-map{
     flex-grow: 1;
-    flex-basis: 0;
+    flex-basis: 0; 
+    /* flex basis definisce la dimensione base di un elemento prima della
+    ridistribuzione dello spazio (il default è la dimensione del contenuto)
+    (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
     min-width: 350px;
     min-height: 250px;
 }
@@ -70,6 +73,9 @@ footer{
 .footer-p-1{
     flex-grow: 1;
     flex-basis: 0;
+    /* flex basis definisce la dimensione base di un elemento prima della
+    ridistribuzione dello spazio (il default è la dimensione del contenuto)
+    (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
     min-width: 350px;
     min-height: 250px;
 }
@@ -77,6 +83,9 @@ footer{
 .footer-p-2{
     flex-grow: 1;
     flex-basis: 0;
+    /* flex basis definisce la dimensione base di un elemento prima della
+    ridistribuzione dello spazio (il default è la dimensione del contenuto)
+    (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
     min-width: 350px;
     min-height: 250px;
 }
